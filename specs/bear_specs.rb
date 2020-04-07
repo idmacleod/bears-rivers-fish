@@ -16,15 +16,15 @@ class BearTest < MiniTest::Test
         @river = River.new("Amazon", [@fish1, @fish2, @fish3])
     end
 
-    def test_bear_has_name
+    def test_bear_has_name()
         assert_equal("Yogi", @bear.name)
     end
 
-    def test_bear_has_type
+    def test_bear_has_type()
         assert_equal("Grizzly", @bear.type)
     end
 
-    def test_new_bears_have_empty_stomachs
+    def test_new_bears_have_empty_stomachs()
         assert_equal(0, @bear.food_count())
     end
 
