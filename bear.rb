@@ -17,4 +17,8 @@ class Bear
         @stomach << fish
     end
 
+    def roar()
+        return "ROAR... Meow!"
+    end
+
 end
