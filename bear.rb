@@ -12,4 +12,9 @@ class Bear
         return @stomach.length
     end
 
+    def take_fish_from_river(fish, river)
+        river.lose_fish(fish)
+        @stomach << fish
+    end
+
 end
